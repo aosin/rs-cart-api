@@ -1,0 +1,17 @@
+# Explatation: 
+#  If that isn't obvious, we don't need any of these files 
+#  being copied into container to build the image. 
+#  Copying them will either bloat the image size, 
+#  or trigger cache invalidation, increasing the build time, or both.
+.dockerignore
+Dockerfile
+docker-*
+node_modules
+dist
+test
+.eslint*
+.git
+.git*
+.prettierrc
+.env
+README.md
