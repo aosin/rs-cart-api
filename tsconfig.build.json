@@ -5,6 +5,5 @@
     "declaration": false,
     "declarationMap": false,
     "sourceMap": false,
-    "emitDecoratorMetadata": false
   }
 }
